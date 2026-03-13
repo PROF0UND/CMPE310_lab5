@@ -46,6 +46,7 @@ ld max_array.o -o max_array
 ```
 gdb ./max_array
 ```
+
 5. PRESS ENTER
 
 6. Add breakpoint
@@ -58,7 +59,9 @@ break done
 run
 ```
 
-8. Get register info:
+8. Type "y" and hit ENTER.
+
+9. Get register info:
 ```
 info registers eax
 ```
