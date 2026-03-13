@@ -36,12 +36,12 @@ ld max_array.o -o max_array
 
 3. Run:
 ```
-. / max_array
+./max_array
 ```
 
 4. Run in Debugger:
 ```
-gdb . / max_array
+gdb ./max_array
 ```
 
 5. Add breakpoint
