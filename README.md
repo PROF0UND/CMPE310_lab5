@@ -24,6 +24,9 @@ gcc -O0 -S -m32 figure3.cpp
 ```
 
 ## Figure 5:
+
+The following steps are to be performed to run and see the output.
+
 1. Assemble:
 ```
 as figure5.s -o max_array.o
@@ -43,18 +46,19 @@ ld max_array.o -o max_array
 ```
 gdb ./max_array
 ```
+5. PRESS ENTER
 
-5. Add breakpoint
+6. Add breakpoint
 ```
 break done
 ```
 
-6. Run Again:
+7. Run Again:
 ```
 run
 ```
 
-7. Get register info:
+8. Get register info:
 ```
 info registers eax
 ```
